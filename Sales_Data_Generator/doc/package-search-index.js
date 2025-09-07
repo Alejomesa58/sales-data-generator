@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"Sales_Data_Generator","l":"edu.project.datagen"}];updateSearchResults();
