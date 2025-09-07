@@ -10,44 +10,35 @@ No user input is required. Running the app produces deterministic demo data unde
 3. On success, the console prints: 
 [OK] Basic files generated under /data
 ## Output Files (all paths are relative to the project root)
+
 data/
-products.txt # ProductID;ProductName;UnitPrice
-salesmen_info.txt # DocType;DocNumber;FirstName;LastName
+products.csv # ProductID,ProductName,UnitPrice
+salesmen_info.csv # DocType,DocNumber,FirstName,LastName
 salesmen/
-<DocNumber>.txt # First line: DocType;DocNumber
-# Next lines: ProductID;Quantity
+<DocNumber>.csv # First line: DocType,DocNumber
 
 ### Sample (first lines)
 
-- `data/products.txt`
-1001;Notebook;12.50
-1002;Pen;2.00
-1003;Ruler;3.25
+- `data/products.csv`
+1001,Notebook,12.50
+1002,Pen,2.00
+1003,Ruler,3.25
 ...
 
-- `data/salesmen_info.txt`.
-CC;1010;Ana;Lopez
-TI;2020;Juan;Gomez
-PP;3030;Luisa;Perez
+- `data/salesmen_info.csv`
+CC,1010,Ana,Lopez
+TI,2020,Juan,Gomez
+PP,3030,Luisa,Perez
 ...
 
-- `data/salesmen/1010.txt`
-CC;1010
-1001;2
-1005;1
-1012;3
-…
+- `data/salesmen/1010.csv`
+CC,1010
+1001,2
+1005,1
+1012,3
+...
 
-## Project Structure
-src/
-edu/project/datagen/GenerateInfoFiles.java
-data/
-products.txt
-salesmen_info.txt
-salesmen/
-1010.txt
-2020.txt
-…
+Copiar código
 
 ## Design Notes
 
@@ -59,7 +50,7 @@ salesmen/
 
 ## Java Version
 
-- Project built and tested with **Java** (`JavaSE` in Eclipse).
+- Project built and tested with **Java 8** (`JavaSE-1.8` in Eclipse).
 
 ## Next Steps (second delivery, not in this commit)
 
