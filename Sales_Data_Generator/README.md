@@ -1,11 +1,11 @@
 # Sales Data Generator — First Delivery
 
-This Eclipse (Java 8) project generates small **flat files** to be used as input by the main program of the second delivery.  
+This Eclipse (Java 11) project generates small **flat files** to be used as input by the main program of the second delivery.  
 No user input is required. Running the app produces deterministic demo data under the `data/` folder.
 
 ## How to Run
 
-1. Open the project in **Eclipse** (Execution environment: **JavaSE-1.8**).
+1. Open the project in **Eclipse** (Execution environment: **JavaSE-11**).
 2. Run `edu.project.datagen.GenerateInfoFiles` as a **Java Application**.
 3. On success, the console prints: 
 [OK] Basic files generated under /data
@@ -50,7 +50,7 @@ Copiar código
 
 ## Java Version
 
-- Project built and tested with **Java 8** (`JavaSE-1.8` in Eclipse).
+- Project built and tested with **Java 11** (`JavaSE-11` in Eclipse).
 
 ## Next Steps (second delivery, not in this commit)
 
