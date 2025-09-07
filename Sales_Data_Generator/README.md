@@ -59,7 +59,7 @@ salesmen/
 
 ## Java Version
 
-- Project built and tested with **Java 8** (`JavaSE-1.8` in Eclipse).
+- Project built and tested with **Java** (`JavaSE` in Eclipse).
 
 ## Next Steps (second delivery, not in this commit)
 
