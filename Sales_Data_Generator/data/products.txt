@@ -1,0 +1,20 @@
+1001;Notebook;12.50
+1002;Pen;2.00
+1003;Ruler;3.25
+1004;Stapler;15.90
+1005;USB 16GB;25.00
+1006;USB 32GB;32.00
+1007;Headphones;45.00
+1008;Backpack;39.90
+1009;Water Bottle;9.50
+1010;Calculator;29.00
+1011;Mouse;11.90
+1012;Keyboard;24.90
+1013;Paper A4;6.50
+1014;Paper A5;5.20
+1015;Envelope Pack;4.75
+1016;Marker;3.10
+1017;Glue Stick;2.80
+1018;Scissors;7.40
+1019;Tape;3.60
+1020;Folder;2.90

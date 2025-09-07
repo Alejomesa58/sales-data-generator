@@ -1,0 +1,22 @@
+# Eclipse / Java
+/bin/
+/.settings/
+/.project
+/.classpath
+
+# Editors
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build / temp
+/target/
+/out/
+*.log
+
+# (Optional) Ignore generated data
+# /data/
